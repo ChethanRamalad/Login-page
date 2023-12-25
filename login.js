@@ -23,3 +23,17 @@ console.log(username,password)
     }
         // event.preventDefault();
 }
+const rmCheck = document.getElementById("remmberme");
+const usernameInput = document.getElementById("username");
+
+// Check if the checkbox is checked
+if (usernameInput.checked) {
+  // Get the email address from the input element
+  const username = usernameInput.value;
+
+  // Store the email address in local storage
+  localStorage.setItem("username", username);
+} else {
+  // Remove the email address from local storage
+  localStorage.removeItem("username");
+}
