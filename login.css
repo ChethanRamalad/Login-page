@@ -77,6 +77,9 @@ input{
   padding: 10px;
   margin-bottom: 15px;
   box-sizing: border-box;
+  background-color: #353542;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
 } 
 
 button {
@@ -87,14 +90,14 @@ button {
   box-sizing: border-box;
 }
 
-Hlogin {
+.Hlogin {
   background-color: #4CAF50;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   text-align: center; 
-  padding: 100px 20px; /* Add padding for better visual appearance */
+  padding: 10px 20px; /* Add padding for better visual appearance */
  } 
 
 /* login button */
@@ -145,6 +148,7 @@ margin-right: 1000px;
 
 .inline{
   width: unset;
+  margin: 0.5em;
 }
 .cancel-btn:hover {
   background-color: #cc0000;
