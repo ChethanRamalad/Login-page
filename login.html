@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <title>Login Form with Styling</title>
+  <script src="login.js"></script>
+</head>
+<body>
+
+  <body>
+    <div class="container">
+      <h1>Welcome!</h1>
+      <button class="Hlogin" onclick="openPopup()">Login</button>
+  </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span> 
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3ltfGVufDB8fDB8fHww" alt="Image description">
+
+  <form  method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+    <label class="remmberme">  Remember me  <input class="inline" type="checkbox" />
+    </label>
+    <button type="submit" onclick="login();">Login</button>
+
+     <div class="button-container">
+    <button type="button" class="cancel-btn"  >Cancel</button>
+    <a href="/forgot-password">Forgot Password?</a>
+     </div>
+    </div>
+  </div>
+  </form>
+
+</body>
+</html>
